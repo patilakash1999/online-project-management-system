@@ -1,0 +1,195 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    background-color: #f7f9fc;
+    background-image: url('../Images/login-bg-1.svg'); 
+    background-size: cover; 
+    background-position: center; 
+  }
+  .logo-container {
+    text-align: center;
+  }
+  
+  .logo-image {
+    width: 80px; 
+    height: auto;
+    margin-top: 180px;
+
+
+  }
+  
+  .logo-title {
+    font-size: 1.0rem;
+    font-weight: 350;
+    margin-top: 10px;
+    color:white; 
+
+  }
+  
+  .login-card {
+    width: 100%;
+    max-width: 400px;
+    background-color: white; 
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    margin-top: 50px;
+  }
+  
+  .card-body {
+    height: 45vh;
+    padding:30px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    margin-top: -10px;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .btn-block {
+    width: 40%;
+    padding: 8px;
+    font-size: 1rem;
+  }
+
+  
+
+  .login-form {
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px; 
+}
+
+.form-group {
+  margin-bottom: 35px;
+  margin-left: -30px;
+}
+
+label {
+    font-size: 0.85rem;
+    font-weight: 400;
+  display: flex;
+  margin-bottom: 5px;
+  color:rgb(110, 109, 109)
+}
+
+.input {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+  margin-bottom: 0px;
+  font-size: 1.0rem;
+  font-weight: 500;
+}
+
+
+
+.error-message {
+  color: red; 
+  font-size: 0.85rem;
+  display: flex;
+  font-weight: 400;
+  margin-bottom: 0px;
+ 
+}
+
+.login-button {
+  width: 60%;
+  padding: 10px;
+  background-color: #0056b3; 
+  color: white;
+  border: none;
+  border-radius: 80px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 200;
+
+}
+
+
+
+  
+  .input-error {
+    border-color: red; 
+  }
+  
+  .password-field {
+    position: relative; 
+  }
+  
+  .eye-icon {
+    position: absolute; 
+    right: -10px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 24px; 
+    height: 24px; 
+  }
+
+  
+
+  .forgot-password {
+    display: flex;
+    justify-content:end;
+    align-items:end;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #066edf;
+    
+
+  }
+
+  .invalid-message{
+    text-align: center;
+    color: red;
+  }
+
+
+
+  @media (max-width: 768px) {
+    .login-container {
+      padding: 0;
+      background-color: #f7f9fc; /* Fallback in case the image doesn't load */
+    }
+  
+    .logo-image {
+      width: 50px; /* Smaller logo size */
+      margin-top: 10px;
+      height: 100px;
+    }
+  
+    .logo-title {
+      font-size: 1rem; /* Adjust font size for mobile */
+    }
+  
+    .login-card {
+      width: 100%;
+      max-width: 350px;
+      margin-top: 10px; /* Adjust spacing for mobile view */
+      padding: 15px;
+      box-shadow: none; /* Optional: remove shadow for a flat mobile design */
+    }
+  
+    .login-button {
+      width: 100%; /* Full width button on mobile */
+    }
+  
+    .eye-icon {
+      right: 15px; /* Adjust the position for smaller screens */
+    }
+  
+    .forgot-password {
+      font-size: 0.8rem;
+    }
+  }

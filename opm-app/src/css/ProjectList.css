@@ -1,0 +1,122 @@
+.project-listing-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: -10px;
+}
+
+.sort-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.search-sort-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    border-radius: 4px;
+    width: 300px;
+    border-bottom: 1px solid black;
+}
+
+.sort-dropdown {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+}
+
+.project-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.project-table th,
+.project-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.project-table th {
+    background-color: #eaf5ff;
+    color: #393838;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.action-button {
+    margin-right: 15px;
+    padding:6px 16px;
+    border: none;
+    border-radius: 30px;
+    background-color: #1661b2;
+    color: white;
+    cursor: pointer;
+}
+.not-action-button {
+    margin-right: 15px;
+    padding:6px 16px;
+    border: 1px solid #1661b2;
+    border-radius: 30px;
+    background-color: white;
+    color: #1661b2;
+    cursor: pointer;
+}
+
+.action-button:hover {
+    background-color: #0056b3;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.page-button {
+    padding: 5px 10px;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: white;
+    color: #007bff;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.page-button:hover {
+    background-color: #007bff;
+    color: white;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: none;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination button.active {
+    background-color: #00BCD4; 
+    color: #fff;
+    font-weight: bold;
+}
+
+.pagination button:hover {
+    background-color: #ccc; 
+}
+
+.pagination span {
+    padding: 8px 12px;
+}

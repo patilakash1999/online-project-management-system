@@ -1,0 +1,7 @@
+[
+    { "value": "Internal", "label": "Internal" },
+    { "value": "External", "label": "External" },
+    { "value": "Vendor", "label": "Vendor" }
+
+  ]
+  

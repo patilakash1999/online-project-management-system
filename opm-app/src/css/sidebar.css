@@ -1,0 +1,34 @@
+.sidebar {
+    width: 4%; 
+    background-color: rgb(241, 243, 247);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100vh; 
+    top: 0;
+    left: 0;
+}
+
+.sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vertical-indicator {
+    width: 4px; 
+    background-color: #0b55a4; 
+    position: absolute; 
+    left: 0; 
+    transition: height 0.3s ease; 
+}
+
+.sidebar-menu li {
+    margin: 20px 0; 
+    color: white; 
+    cursor: pointer;
+}
